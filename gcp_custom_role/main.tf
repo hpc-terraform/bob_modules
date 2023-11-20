@@ -2,7 +2,7 @@
 
 
 module "gcp_custom_role" {
-  source = "github.com/hpc-terraform/bob_modules//gcp_custom_role"
+  source = "github.com/hpc-terraform/bob_modules//gcp_custom_role?ref=ac65626"
   billing_account_id = var.billing_account_id
   description        = local.description
   display_name       = local.display_name
